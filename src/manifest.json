@@ -16,7 +16,6 @@
         }
     },
     "permissions": [
-        "storage",
         "contextMenus"
     ],
     "background": {
