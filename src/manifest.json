@@ -1,0 +1,26 @@
+{
+    "name": "__MSG_name__",
+    "description": "__MSG_description__",
+    "version": "0.1.0",
+    "manifest_version": 3,
+    "default_locale": "en",
+    "icons": {
+        "32": "icons/icon-32.png",
+        "64": "icons/icon-64.png",
+        "128": "icons/icon-128.png"
+    },
+    "action": {
+        "default_popup": "popup/index.html",
+        "default_icon": {
+            "128": "icons/icon-128.png"
+        }
+    },
+    "permissions": [
+        "storage",
+        "contextMenus"
+    ],
+    "background": {
+        "service_worker": "background/index.js",
+        "type": "module"
+    }
+}

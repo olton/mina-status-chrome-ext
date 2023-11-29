@@ -1,0 +1,144 @@
+body {
+  font-family: monospace;
+}
+main {
+  min-width: 300px;
+  max-width: 90%;
+  padding: 10px;
+  font-size: 12px;
+}
+h1 {
+  margin: 0 0 10px 0;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  border-bottom: 1px solid #d2d2d2;
+  padding-bottom: 10px;
+}
+.secondary-text {
+  font-size: 0.6em;
+  margin-left: auto;
+}
+label {
+  font-weight: bold;
+  color: #b7b7b7;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+}
+.grid .cell,
+.grid .cell2,
+.grid .cell3 {
+  display: flex;
+  flex-flow: column;
+  flex-basis: 33%;
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+}
+.grid .cell2 {
+  flex-basis: 50%;
+}
+.grid .cell3 {
+  flex-basis: 100%;
+}
+.grid + .grid {
+  margin-top: 10px;
+}
+.value {
+  font-size: 18px;
+}
+.label {
+  font-size: 10px;
+  color: #1e2128;
+  text-transform: uppercase;
+}
+#epoch,
+#height {
+  font-size: 34px;
+  color: #1e2128;
+}
+#creator {
+  font-size: 14px;
+}
+small {
+  font-size: 0.8em;
+}
+.mi-dark {
+  color: #000;
+}
+.mi-alert {
+  color: #ad2a14;
+}
+.mi-success {
+  color: #198a00;
+}
+.mi-info {
+  color: #468cff;
+}
+.mi-pink {
+  color: #c67cff;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table tr:not(:nth-last-child(1)) td {
+  border-bottom: 1px solid #d2d2d2;
+}
+table td {
+  padding: 4px;
+}
+.mi__link {
+  color: #1e2128;
+  text-decoration: none;
+}
+.text-small {
+  font-size: 10px;
+  color: #b7b7b7;
+}
+.no-decor {
+  text-decoration: none;
+}
+footer {
+  border-top: 1px solid #b7b7b7;
+  font-size: 10px;
+  padding-top: 10px;
+}
+#progress-bar {
+  margin-left: auto;
+}
+#slot-of {
+  font-size: 10px;
+  text-align: center;
+}
+.progress {
+  height: 6px;
+  width: 100px;
+  background: #d9d9d9;
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.progress .bar {
+  background: #198a00;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.canonical-block {
+  background: #fadbff url("../images/bg1.webp") top center repeat-y;
+  padding: 10px;
+  border-radius: 20px;
+}
+.price-data,
+.epoch-data {
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #b7b7b7;
+}
+/*# sourceMappingURL=index.css.map */

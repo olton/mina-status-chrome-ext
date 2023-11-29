@@ -1,0 +1,20 @@
+{
+    "name": {"message": "Mina Статус"},
+    "description": {"message": "Інформація про поточний статус Mina Blockchain"},
+    "height": {"message": "ВИСОТА"},
+    "epoch": {"message": "ЕПОХА"},
+    "global_slot": {"message": "ГЛОБАЛ СЛОТ"},
+    "slot": {"message": "СЛОТ в ЕПОСІ"},
+    "start_block": {"message": "СТАРТ БЛОК"},
+    "blocks_produced": {"message": "БЛОКІВ ВИРОБЛЕНО"},
+    "canonical_height": {"message": "КАНОНІЧНА ВИСОТА"},
+    "block_coinbase": {"message": "COINBASE"},
+    "block_slot": {"message": "СЛОТ В ЕПОСІ"},
+    "block_global_slot": {"message": "ГЛОБ. СЛОТ"},
+    "block_creator": {"message": "БЛОК ПРОДЮСЕР"},
+    "mina_price": {"message": "ВАРТІСТЬ MINA"},
+    "mina_price_change_24h": {"message": "ЗМІНА ЗА 24Ч"},
+    "mina_price_high_24h": {"message": "МАКС ЗА 24Ч"},
+    "author": {"message": "Сергій Піменов"},
+    "github": {"message": "Проект на GitHub"}
+}

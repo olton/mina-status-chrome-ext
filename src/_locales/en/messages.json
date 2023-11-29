@@ -1,0 +1,20 @@
+{
+    "name": {"message": "Mina Status"},
+    "description": {"message": "Information about the current Mina Blockchain status"},
+    "height": {"message": "HEIGHT"},
+    "epoch": {"message": "EPOCH"},
+    "global_slot": {"message": "GLOBAL SLOT"},
+    "slot": {"message": "EPOCH SLOT"},
+    "start_block": {"message": "START BLOCK"},
+    "blocks_produced": {"message": "BLOCKS PRODUCED"},
+    "canonical_height": {"message": "CANONICAL HEIGHT"},
+    "block_coinbase": {"message": "COINBASE"},
+    "block_slot": {"message": "EPOCH SLOT"},
+    "block_global_slot": {"message": "GLOBAL SLOT"},
+    "block_creator": {"message": "BLOCK PRODUCER"},
+    "mina_price": {"message": "MINA PRICE"},
+    "mina_price_change_24h": {"message": "24H CHANGE"},
+    "mina_price_high_24h": {"message": "24H MAX"},
+    "author": {"message": "Serhii Pimenov"},
+    "github": {"message": "Project on GitHub"}
+}

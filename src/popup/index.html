@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mina Status</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1 style="font-weight: 100">
+            <span data-i18n="name">MINA STATUS</span>
+            <div id="progress-bar">
+                <div id="epoch-bar" class="progress"><div class="bar"></div></div>
+            </div>
+        </h1>
+    </header>
+    <main>
+        <div class="grid epoch-data">
+            <div class="cell">
+                <div class="value" id="global-slot">0</div>
+                <div class="label" data-i18n="global_slot">GLOBAL SLOT</div>
+            </div>
+            <div class="cell">
+                <div class="value" id="epoch">0</div>
+                <div class="label" data-i18n="epoch">EPOCH</div>
+            </div>
+            <div class="cell">
+                <div class="value" id="slot">0</div>
+                <div class="label" data-i18n="slot">SLOT</div>
+            </div>
+            <div class="cell2">
+                <div class="value" id="start-block">0</div>
+                <div class="label" data-i18n="start_block">START BLOCK</div>
+            </div>
+            <div class="cell2">
+                <div class="value" id="blocks-produced">0</div>
+                <div class="label" data-i18n="blocks_produced">BLOCKS PRODUCED</div>
+            </div>
+        </div>
+        <div class="grid canonical-block">
+            <div class="cell3">
+                <div id="block-time" class="label"></div>
+            </div>
+            <div class="cell3" style="margin-bottom: 6px">
+                <div class="value" id="height">0</div>
+                <div class="label" data-i18n="canonical_height">КАНОНІЧНА ВИСОТА</div>
+            </div>
+            <div class="cell">
+                <div class="value" id="block-coinbase">0</div>
+                <div class="label" data-i18n="block_coinbase">COINBASE</div>
+            </div>
+            <div class="cell">
+                <div class="value" id="block-slot">0</div>
+                <div class="label" data-i18n="block_slot">СЛОТ БЛОКА</div>
+            </div>
+            <div class="cell">
+                <div class="value" id="block-global-slot">0</div>
+                <div class="label" data-i18n="block_global_slot">ГЛ.СЛОТ БЛОКА</div>
+            </div>
+            <div class="cell3" style="margin-top: 6px;">
+                <div class="value" id="creator">XXXXXXXXXX...XXXXXXXXXX</div>
+                <div class="label" data-i18n="block_creator">ПРОДЮСЕР</div>
+            </div>
+        </div>
+        <div class="grid price-data">
+            <div class="cell">
+                <div class="value" id="mina-price">0</div>
+                <div class="label" data-i18n="mina_price">ВАРТІСТЬ MINA</div>
+            </div>
+            <div class="cell">
+                <div class="value" id="mina-price-change-24h">0</div>
+                <div class="label" data-i18n="mina_price_change_24h">ЗМІНА ЗА 24Ч</div>
+            </div>
+            <div class="cell">
+                <div class="value" id="mina-price-high-24h">0</div>
+                <div class="label" data-i18n="mina_price_high_24h">МАКС ЗА 24Ч</div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div style="text-align: center; color: #b7b7b7">
+            Copyright 2023 by <a class="mi__link" href="https://pimenov.com.ua" target="_blank" data-i18n="author">Serhii Pimenov</a>
+            <div><span data-i18n="name"></span> v0.1.0</div>
+        </div>
+    </footer>
+
+    <script src="datetime.js"></script>
+    <script src="utils.js"></script>
+    <script src="websocket.js"></script>
+    <script src="index.js"></script>
+    <script src="updater.js"></script>
+</body>
+</html>
