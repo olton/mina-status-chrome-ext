@@ -1,5 +1,5 @@
 {
-    "name": {"message": "Mina Status"},
+    "name": {"message": "Mina.Status"},
     "description": {"message": "Information about the current Mina Blockchain status"},
     "height": {"message": "HEIGHT"},
     "epoch": {"message": "EPOCH"},
@@ -16,5 +16,6 @@
     "mina_price_change_24h": {"message": "24H CHANGE"},
     "mina_price_high_24h": {"message": "24H MAX"},
     "author": {"message": "Serhii Pimenov"},
-    "github": {"message": "Project on GitHub"}
+    "github": {"message": "Project on GitHub"},
+    "made": {"message": "Made in Ukraine"}
 }

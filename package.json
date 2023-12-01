@@ -1,0 +1,14 @@
+{
+  "name": "mina-staus-chrome-ext",
+  "version": "0.2.0",
+  "description": "Chrome extension for showing account info",
+  "main": "src/manifest.json",
+  "type": "module",
+  "scripts": {},
+  "keywords": [],
+  "author": "Serhii Pimenov <sergii@pimenov.com.ua>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chrome": "^0.0.253"
+  }
+}

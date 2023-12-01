@@ -1,5 +1,5 @@
 {
-    "name": {"message": "Mina Статус"},
+    "name": {"message": "Mina.Статус"},
     "description": {"message": "Інформація про поточний статус Mina Blockchain"},
     "height": {"message": "ВИСОТА"},
     "epoch": {"message": "ЕПОХА"},
@@ -16,5 +16,6 @@
     "mina_price_change_24h": {"message": "ЗМІНА ЗА 24Ч"},
     "mina_price_high_24h": {"message": "МАКС ЗА 24Ч"},
     "author": {"message": "Сергій Піменов"},
-    "github": {"message": "Проект на GitHub"}
+    "github": {"message": "Проект на GitHub"},
+    "made": {"message": "Зроблено в Україні"}
 }
